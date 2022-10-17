@@ -16,4 +16,6 @@ if len(guess)==1 and guess.isalpha():
 else:
     print("Oops! That is not a valid input." )"""
 
+I created 2 functions called, check_guess and ask_for_input. The check_guess function will take the guessed letter as an argument and check if the letter is in the word. I alsoo coverted the guess to lowercase and in the fuction ask_for_input I moved the code I wrote previously to iteratively check if the input is a valid guess. If it is not it will exit the while loop and the user will be asked to enter another input guess.
+
 
